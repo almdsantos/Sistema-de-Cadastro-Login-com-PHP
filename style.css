@@ -9,27 +9,40 @@ body {
 
 .container {
     background-color: black;
+    position: relative;
     color: white;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 25vh;
-    padding: 5vw;
-    width: 30vw;
-    height: 50vh;
+    margin: 5vh auto auto auto;
+    padding: 8vw;
+    width: 280px;
+    height: 480px;
     text-align: center;
     border-radius: 15px;
 }
 
 h1{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.cadastro {
+    text-align: start;
+    padding-right: 2px;
+    margin-left: 21px;
+    width: 85%;
+}
+
+a {
+    
+    font-size: 12px;
+    color: red;
+    text-decoration: none;
 }
 
 input {
-    text-align: center;
+    padding-left: 5px;
     border: none;
     border-radius: 10px;
     font-size: 15px;
-    width: 85%;
+    width: 90%;
     height: 15%;
 }
 button {
@@ -39,7 +52,7 @@ button {
     border: none;
     border-radius: 10px;
     font-size: 15px;
-    width: 85%;
+    width: 90%;
     height: 15%;
 }
 
