@@ -1,10 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: green;
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
 }
 
 .container {
@@ -19,7 +14,7 @@ body {
     border-radius: 15px;
 }
 
-h1{
+h1{  
     padding-bottom: 30px;
 }
 

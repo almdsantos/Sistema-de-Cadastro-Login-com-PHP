@@ -9,15 +9,17 @@
 <body>
     <div class="container">
         <h1>Login</h1>
-        <input type="text" placeholder="usuário">
-        <br><br>
-        <input type="password" placeholder="Senha">
-        <br><br>
+        <form action="testeLogin.php" method="POST">
+            <input type="text" name="email" placeholder="Email">
+            <br><br>
+            <input type="password" name="senha" placeholder="Senha">
+            <br><br>
+            <input class="submit" type="submit" name="submit" value="ENVIAR">
+        </form>
         <div class="cadastro">
             <h6>Não tem cadastro?</h6>
-            <a href="cadastro.html">Cadastre-se</a>
+            <a href="formulario.php">Cadastre-se</a>
         </div>
-        <button>Enviar</button>
     </div>
 </body>
 </html>
